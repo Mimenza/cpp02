@@ -6,7 +6,7 @@
 /*   By: emimenza <emimenza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/03 14:03:10 by emimenza          #+#    #+#             */
-/*   Updated: 2024/06/03 14:28:34 by emimenza         ###   ########.fr       */
+/*   Updated: 2024/06/04 13:48:45 by emimenza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,6 @@ int Fixed::getRawBits(void) const
 
 void Fixed::setRawBits(int const raw)
 {
+    std::cout << "settRawBits member function called" << std::endl;
     this->fixed_value = raw;
 }
